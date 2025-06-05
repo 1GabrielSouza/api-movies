@@ -2,7 +2,7 @@ from flask import Flask, jsonify
 
 app = Flask(__name__)
 
-@app.route('/exemplo', methods=['GET'])
+@app.route('/', methods=['GET'])
 def index():
     teste = [
         {
